@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" href="/Imagenes/Logo.jpg">
+    <!-- <link rel="stylesheet" href="reset.css">     -->
+    <title>Formulario de Compra</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/Imagenes/Logo.png" alt="Logo de la tienda">   
+        <div class="titulo">
+            <h1 class="tituloprincipal">TIENDA PARA MASCOTAS FKLR</h1>
+            <h2 class="subtitulo">Detrás de cada juguete, hay una historia</h2>
+        </div>   
+    </header>  
+
+    <main>
+
+        <nav>
+            <ul class="navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="catalogoperros.html">Perros</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+
+        <section class="SeccionEncabezado">
+            <h1 class="tituloseccion">SECCIÓN DE COMPRA</h1>
+            <p>Llena los datos que aparecen a continuación y realiza tu compra.</p>
+            <img class="Fondo" src="Imagenes/FondoFormularioCompra.jpg" alt="FormularioCompra">
+            <h2 class="subtituloseccion">Formulario de Compra</h2>
+        </section>
+
+        <form class="formulario_compra" action="formulariocompra.html">
+
+            <label for="nombre">Ingrese su nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombres">
+            <label for="apellidos">Ingrese sus apellidos:</label>
+            <input type="text" name="apellidos" required placeholder="Apellidos">
+            <label for="telefono">Ingrese su número telefónico:</label>
+            <input type="number" name="telefono" required placeholder="3121234567">
+            <label for="residencia">Lugar de Residencia:</label>
+            <label for="departamento">Departamento:</label>
+                <select name="departamento" id="departamento" required>
+                    <option disabled selected>Seleccione un departamento</option>
+                    <option>Amazonas</option>
+                    <option>Huila</option>
+                    <option>Tolima</option>
+                </select>
+            <label for="ciudad">Ciudad:</label>
+                <select name="ciudad" id="ciudad" required>
+                    <option disabled selected>Seleccione una ciudad</option>
+                    <option>Leticia</option>
+                    <option>Neiva</option>
+                    <option>Ibagué</option>
+                </select>
+            <!-- <input type="text" name="ciudad" id="ciudad" required> -->
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" required placeholder="Dirección">
+
+            <label for="tarjeta">Tipo de Tarjeta:</label>
+                <select name="pago" id="pago" id="tarjeta" required >
+                    <option disabled selected>Seleccione una opción de tarjeta</option>
+                    <option>Crédito</option>
+                    <option>Débito</option>
+                </select>
+            
+            <label for="numerotarjeta">Ingrese el número de su tarjeta:</label>
+            <input type="number" name="numerotarjeta" id="numerotarjeta" required placeholder="0000000000">
+
+            <label for="contrasenia">Ingrese la contraseña de la tarjeta:</label>
+            <input type="password" name="contrasenia" id="contrasenia" required placeholder="1234">
+
+
+            <input type="submit" name="btn_comprar" id="btn_comprar" value="Realizar Compra"">
+
+        </form>
+    </main>
+    <br>
+    <br>
+    <br> <br> <br> <br> <br>
+    <footer>
+        <img class="logo_footer" src="Imagenes/Logo.png" alt="Logo de la pagina">
+        <h2>TIENDA PARA MASCOTAS <i>FKLR</i> </h2>
+        <p>Dirección: Cra 7 # 8a-45 Oporapa - Huila <br>
+            Horario de Atención: Lunes a Domingo 8:00 a.m. - 5:00 p.m. <br>
+            Contacto: 3124748268 - <i>tiendafklr@fklr.com.co</i></p>
+
+
+        <!-- <h3>Tienda de Mascotas FKLR</h3>
+        <p>Dirección: Cra 7 # 8a-45</p>
+        <p>Oporapa - Huila</p>
+        <p>Horario de Atención: Lunes a Domingo 8:00 a.m. - 5:00 p.m.</p>
+        <p>Contacto: 3124748268 - <i>tiendafklr@fklr.com.co</i> </p> -->
+
+        <ul  class="redessocialesimg">
+            <li>
+                <a href="https://www.facebook.com/recabrera1/" target="_blank">
+                    <img class="redessociales" src="/Imagenes/Redes Sociales/Facebook1.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/recabrera1/" target="_blank">
+                    <img class="redessociales" src="/Imagenes/Redes Sociales/Instagram1.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/RafaelECP95" target="_blank">
+                    <img class="redessociales" src="/Imagenes/Redes Sociales/Twitter1.png" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/rafaelecp95/" target="_blank">
+                    <img class="redessociales" src="/Imagenes/Redes Sociales/Linkedin1.png" alt=""></a>
+            </li>
+        </ul>
+
+    </footer>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
