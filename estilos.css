@@ -22,22 +22,41 @@ body {
 }
 .header{
     background-color: #22DDEE;
+    display: flex;
 }
 .header header img {
     display: flex;
     justify-content: right;
 
 }
+.titulo  {
+    position: relative;
+    left: 68%;
+    top:-45%;
+    
+}
 .menuhorizontal {
-    text-align:end;
+   
+   text-align:end;
    list-style-type:none;
    position: relative;
 }
 .menuhorizontal li {
+    display: flex;
     display: inline-block;
-    justify-content:space-between ;
-    padding-right: 80px;
+    text-decoration: none;
+    padding-left: 20%;
+    position: relative;
+    left: 68%;
+
 }
+.menuhorizontal a {
+  
+    
+    
+}
+
+
 .banner section article {
     display: inline-block;
     padding: 50px;
@@ -47,6 +66,7 @@ body {
     padding: 50px;
 
 }
+
 footer {
     background-color:#22DDEE ;
 }
