@@ -6,27 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scompras.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Tienda de mascotas FKLR</title>
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="img/logo.svg" alt="Logo de la tienda">
-        <div class="eslogan">
+    <div class="container">
+        <div class="row">
+            <header class=" col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img class="logo" src="img/logo.svg" alt="Logo de la tienda">
+                <div class="eslogan">
 
-            <h1 class="tituloprincipal">TIENDA PARA MASCOTAS FKLR</h1>
-            <h2 class="subtitulo">Detrás de cada juguete, hay una historia</h2>
+                    <h1 class="tituloprincipal">TIENDA PARA MASCOTAS FKLR</h1>
+                    <h2 class="subtitulo">Detrás de cada juguete, hay una historia</h2>
 
-        </div>
-        <nav class="navegacion">
-            <a class="navegacion__boton" href="index.html">Inicio</a>
-            <a class="navegacion__boton" href="catalogoperros.html">Perros</a>
-            <a class="navegacion__boton" href="blog.html">Blog</a>
-        </nav>
-    </header>
-
-    <main>
-
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <nav class="navegacion">
+                            <a class="navegacion__boton col order-last" href="index.html">Inicio</a>
+                            <a class="navegacion__boton col" href="catalogoperros.html">Perros</a>
+                            <a class="navegacion__boton col order-first" href="blog.html">Blog</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+   </div> 
+    <main class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <h2 class="titulo">Bolsa de Compras</h2>
         <h2 class="titulo2">Yipetor Juguetes masticables duraderos para perros</h2>
         <div class="producto1"><img classs="perro" src="img/perro.png" alt="">
@@ -35,7 +41,7 @@
                 total a pagar: 80.000
             </p>
         </div>
-        <div class="container">
+        <div class="container col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <form action="">
                 <div class="formulario_p1">
                     <label>Departamento</label>
@@ -43,10 +49,11 @@
 
                     <label>Ciudad</label>
                     <input class="casillas" type="text" placeholder="Ciudad" required>
-                    <br>
+                    <br> <br>
 
                     <label>Direccion</label>
                     <input class="casillas" type="text" placeholder="Direccion" required>
+                    <br><br>
 
                     <p>Datos Personales</p>
 
@@ -55,6 +62,7 @@
 
                     <label>Apellido</label>
                     <input class="casillas" type="text" placeholder="apellido" required>
+                    <br><br>
 
                     <label>N° de identificacion</label>
                     <select class="casillas"> <br><br>
@@ -63,16 +71,18 @@
                         <option value="POPAYAN">TI</option>
                     </select>
                     <input class="casillas" type="text" placeholder="Identificacion">
+                    <br><br>
 
                     <label>Numero de Celular</label>
                     <input class="casillas" type="number" placeholder="Celular">
+                    <br><br>
 
                     <label>Correo Electronico</label>
                     <input class="casillas" type="email" placeholder="ejemplo@gmail.com">
                 </div>
                 <div class="formulario_p2">
                     <div>
-                        <p> Metodos de Pago:</p><br>
+                        <p> Metodos de Pago:</p>
                         <label for=""><input type="radio" name="pagos" value="contraentrega">pago
                             contraentrega</label><br>
                         <label for=""><input type="radio" name="pagos" value="tarjeta">pago con tarjeta</label>
@@ -81,16 +91,16 @@
                         <img src="img/visa.svg" alt="">
                         <img src="img/american-express.svg" alt="">
                         <img src="img/mastercard.svg" alt="">
-                    </div>
-                    <input class="botons" type="submit" alt="adios.html" value="PAGAR">
-
+                    </div> <br><br>
+                    <button type="submit" class="justify-content-end btn btn-info">PAGAR</button>
                 </div>
+               <br><br>
 
-
+             
             </form>
         </div>
     </main>
-    <footer>
+    <footer class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <img class="logo_footer" src="img/logo.svg" alt="Logo de la pagina">
         <h2>TIENDA PARA MASCOTAS <i>FKLR</i></h2>
         <p>Dirección: Cra 6 # 8 - 67 <br>
@@ -115,6 +125,8 @@
         </ul>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</div>
 </body>
 
 </html>
