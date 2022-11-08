@@ -11,7 +11,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container m-0
+    .title {
+        @include font-size(4rem);
+      }">
         <div class="row">
             <header class=" col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <img class="logo" src="img/logo.svg" alt="Logo de la tienda">
@@ -26,6 +29,9 @@
                         <nav class="navegacion">
                             <a class="navegacion__boton col order-last" href="index.html">Inicio</a>
                             <a class="navegacion__boton col" href="catalogoperros.html">Perros</a>
+                            <a class="navegacion__boton col" href="catalogoperros.html">Gatos</a>
+                            <a class="navegacion__boton col" href="catalogoperros.html">Hámster</a>
+                            <a class="navegacion__boton col" href="catalogoperros.html">Otros</a>
                             <a class="navegacion__boton col order-first" href="blog.html">Blog</a>
                         </nav>
                     </div>
@@ -42,8 +48,8 @@
             </p>
         </div>
         <div class="container col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <form action="">
-                <div class="formulario_p1">
+            <form action="adios.html" class="formulario">
+                <div>
                     <label>Departamento</label>
                     <input class="casillas" type="text" placeholder="Departamento" required>
 

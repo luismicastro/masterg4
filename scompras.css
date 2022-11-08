@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-
-
-
 header {
     display: flex;
     background: #22DDEE;
@@ -21,7 +17,7 @@ header img {
     width: 15%;
     position: relative;
 
-    /*Arriba, Derecha, Abajo Izquierda*/
+   
 }
 
 header div {
@@ -39,29 +35,6 @@ header h2 {
     font-size: 20px;
     color: #0602CD;
 }
-
-.eslogan {
-    display: flex;
-    flex-direction: column;
-    margin-left: 250px;
-    text-align: center;
-
-}
-
-.container {
-    display: grid;
-    grid-column: 1fr 1fr;
-    width: 100%;
-
-}
-
-.formulario_p2 {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-
 .navegacion {
     width: 100%;
     justify-content: center;
@@ -91,6 +64,20 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.eslogan {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    text-align: center;
+
+}
+.container {
+    display: grid;
+    grid-column: 1fr 1fr;
+    width: 100%;
+
 }
 
 .titulo {
@@ -126,7 +113,6 @@ main {
     border: rgb(228, 225, 225) solid;
     border-radius: 25px;
 }
-
 .parrafo {
 
     left: 0px;
@@ -139,7 +125,15 @@ main {
 
     color: #000000;
 }
+.formulario {
+    font-size: 24px;
+}
 
+.formulario_p2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 .casillas {
     border: 1px solid hsba(15, 37%, 99%, 1);
     font-family: 'bodonin libre';
